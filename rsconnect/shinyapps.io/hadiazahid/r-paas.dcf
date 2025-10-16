@@ -5,6 +5,6 @@ account: hadiazahid
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15777283
-bundleId: 11043415
+bundleId: 11043752
 url: https://hadiazahid.shinyapps.io/r-paas/
 version: 1
