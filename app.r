@@ -69,7 +69,7 @@ ui <- fluidPage(
         tabPanel("Goals",
                  h3("Career Goals"),
                  p("🌟 To become a full-stack developer capable of building secure, scalable, and user-friendly systems."),
-                 p("🌟 To gain practical experience through internships and collaborative projects."),
+                 p("🌟 To gain practical experience through internships and collaborative projects:)"),
                  p("🌟 To explore AI integration, cloud platforms, and automation tools."),
                  tags$img(src = "vector_goal.svg", height = "200px", width = "auto", alt = "Goals Vector Art")
         )
@@ -91,3 +91,6 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui = ui, server = server)
+git add .
+git commit -m "portfolio"
+git push
